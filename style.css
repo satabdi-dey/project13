@@ -1,0 +1,179 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+body{
+    margin: 0px;
+    font-family: "Poppins";
+}
+header{
+    background-color: #7030cc;  
+}
+li{
+    display: inline;
+    color: #f7f8f9;
+    
+}
+.image{
+    margin-left: 8vh;
+  }
+
+.nav-btn{
+    color: #f7f8f9;
+    background-color: #1bbcef;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.navbar-container{
+    padding-left: 5vh;
+    padding-top: 20px;
+    
+}
+.nav-items{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 30vh;
+   gap: 20px;
+   padding-right: 20px;
+}
+.item{
+margin-right: 40px;
+}
+.item:hover{
+    border-bottom:2px solid #b25ad8;
+    color: #1bbcef;
+}
+.active{
+    border-bottom:2px solid #b25ad8;
+    color: #1bbcef;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 40px;
+   
+}
+.left-part{
+    color: #fffff0;
+    margin-top: 10vh;
+
+}
+.left{
+    font-size: 70px;
+    font-weight: 600;
+    width: 90vh;
+
+}
+img[src="./assets/30495 [Converted]-01(1).svg"]{
+    width:90vh;}
+
+p{font-size: 14px;
+    font-family: "poppins";
+    width: 50vh;
+    font-weight: 300;
+
+}
+img[src="./assets/saas.png"]{
+    width:90vh;
+height: 90vh;}
+.right-part2{
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+.right{
+    font-size: 40px;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    width: 80vh;
+    margin-left: 80vh;
+    font-weight: 600;
+}
+h3{
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    }
+.points{
+    margin-left: 25px;
+}
+.flex-card {
+    display: flex;
+    flex-shrink: 20vh;
+    justify-content: center;
+    gap:5vw;
+    margin-bottom: 10vh;
+    
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 5px 0px #bfbfbf;
+    text-align: center;
+  }
+ 
+.card-heading{
+    font-size: 15px;
+    font-weight: 600;
+}
+.description{
+font-size: 10px;
+display: flex;
+width: 8vw;
+padding: 10px;
+}
+
+.active2{
+    background-color: #6429b7;
+    border-radius: 1rem;
+    color: #fffff0;
+   
+}
+.img-position{
+    padding-top: 20px;
+}
+.image2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #faeaeb;
+    left: 20%;
+    position: relative;   
+    margin-bottom: 20px;
+}
+.image3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fbf0ee;
+    left: 20%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.image4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e9f4f6;
+    left: 20%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.image5{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f2e7f5;
+    left: 20%;
+    position: relative;
+    margin-bottom: 20px;
+}
